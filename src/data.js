@@ -1,28 +1,34 @@
 // TODO: Setting up Domy Data
+import Horiseonwebsite from "./assets/Horiseonwebsite.png";
+import Cardio from "./assets/cardio2.png";
+import Start from "./assets/START.png";
+import Scheduler from "./assets/scheduler.png";
+
 export const featuredPortfolio = [
     {
       id: 1,
-      title: "Social Media App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      title: "Horiseon Optmization",
+    img: Horiseonwebsite,
+    link: "https://mohamedmesahel.github.io/Horiseon-website/"
+      
     },
     {
       id: 2,
-      title: "Rampa UI Design",
-      img:
-        "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+      title: "Workout-Tracker",
+      img: Cardio,
+      link: "https://workout-trackermm.herokuapp.com/"
     },
     {
       id: 3,
-      title: "E-commerce Web Design",
-      img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+      title: "Note-Taker",
+      img: Start,
+      link: "https://note-taker4.herokuapp.com/"
     },
     {
       id: 4,
-      title: "Relax Mobile App",
-      img:
-        "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+      title: "Work Day Scheduler",
+      img: Scheduler,
+      link: "https://mohamedmesahel.github.io/Work-Day-Scheduler/"
     },
     {
       id: 5,

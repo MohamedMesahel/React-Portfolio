@@ -1,4 +1,6 @@
+// TODO: import stylesheet and animated typing
 import "./intro.scss";
+// TODO: import necessary pics
 import Seattle from "../../assets/Seattle.jpeg";
 import Down from "../../assets/down.png"
 import { init } from "ityped";

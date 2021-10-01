@@ -44,10 +44,10 @@ export default function Portfolio() {
         setData(featuredPortfolio);
         break;
       case "personnel":
-        setData(collaborativePortfolio);
+        setData(personnelPortfolio);
         break;
       case "collaborative":
-        setData(personnelPortfolio);
+        setData(collaborativePortfolio);
         break;
       case "design":
         setData(designPortfolio);

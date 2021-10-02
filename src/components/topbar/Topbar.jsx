@@ -2,6 +2,9 @@
 // TODO: import icons files from material-ui icon liberary
 import "./topbar.scss";
 import { Person, Mail } from "@material-ui/icons";
+// import { FaGithubAlt } from 'react-icons/fa';
+import { FaGithubAlt } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -21,9 +24,11 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           </div>
         {/* Find an icon for github and linkdin */}
           <div className="itemContainer">
+            <FaGithubAlt className="icon" />
             <a className = "link" href="https://github.com/MohamedMesahel">Github</a>
           </div>
           <div  className="itemContainer">
+            <FaLinkedin className="icon" />
             <a className="link" href="https://www.linkedin.com/in/mohamed-mesahel-pmp-570a0423/">LinkedIn</a>
           </div>
           <div className="itemContainer">

@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c2af6295.chunk.css",
+    "main.js": "/portfolio/static/js/main.b3d37fb1.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b3d37fb1.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.7a91c341.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.7a91c341.js.map",
+    "static/js/2.6c7a1e36.chunk.js": "/portfolio/static/js/2.6c7a1e36.chunk.js",
+    "static/js/2.6c7a1e36.chunk.js.map": "/portfolio/static/js/2.6c7a1e36.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.c2af6295.chunk.css.map": "/portfolio/static/css/main.c2af6295.chunk.css.map",
+    "static/js/2.6c7a1e36.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6c7a1e36.chunk.js.LICENSE.txt",
+    "static/media/Categories.ee186e05.png": "/portfolio/static/media/Categories.ee186e05.png",
+    "static/media/Horiseonwebsite.9a963829.png": "/portfolio/static/media/Horiseonwebsite.9a963829.png",
+    "static/media/Main.500bad7c.png": "/portfolio/static/media/Main.500bad7c.png",
+    "static/media/Portfolio.ca0a5633.png": "/portfolio/static/media/Portfolio.ca0a5633.png",
+    "static/media/Quizgame.a53af802.png": "/portfolio/static/media/Quizgame.a53af802.png",
+    "static/media/README.f04c6a6b.png": "/portfolio/static/media/README.f04c6a6b.png",
+    "static/media/START.cda8ee52.png": "/portfolio/static/media/START.cda8ee52.png",
+    "static/media/Seattle.0f02366f.jpeg": "/portfolio/static/media/Seattle.0f02366f.jpeg",
+    "static/media/Teamprofile.48e7a195.png": "/portfolio/static/media/Teamprofile.48e7a195.png",
+    "static/media/Tutorade.9098eb70.png": "/portfolio/static/media/Tutorade.9098eb70.png",
+    "static/media/WeatherDashboard.83239039.png": "/portfolio/static/media/WeatherDashboard.83239039.png",
+    "static/media/cardio2.884348a6.png": "/portfolio/static/media/cardio2.884348a6.png",
+    "static/media/employeetracker3.ddd55d3e.png": "/portfolio/static/media/employeetracker3.ddd55d3e.png",
+    "static/media/globe.c824dd0f.png": "/portfolio/static/media/globe.c824dd0f.png",
+    "static/media/scheduler.47ac5e10.png": "/portfolio/static/media/scheduler.47ac5e10.png",
+    "static/media/shake.c7165a1f.svg": "/portfolio/static/media/shake.c7165a1f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a91c341.js",
+    "static/js/2.6c7a1e36.chunk.js",
+    "static/css/main.c2af6295.chunk.css",
+    "static/js/main.b3d37fb1.chunk.js"
+  ]
+}

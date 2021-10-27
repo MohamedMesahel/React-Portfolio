@@ -10,7 +10,7 @@ This is my first react personal portfolio built using React and SASS. I will be 
 * [Screen-Shots](#Screen-Shots)
 
 ## Installation
-- You can visit the deployed app here : [React Portfolio](https://mohamedmesahel.github.io/portfolio/).
+- You can visit the deployed app here : [React Portfolio](https://mohamedmesahel.github.io/React-Portfolio/).
 
 - If you want to run the app on your local server download it through Github.
 - Run npm i or (npm install), to make sure to download all the necessary files in the jason package.

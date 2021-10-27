@@ -2,7 +2,7 @@
   "name": "react-portfolio-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mohamedmesahel.github.io/portfolio/",
+  "homepage": "https://mohamedmesahel.github.io/React-Portfolio/",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",

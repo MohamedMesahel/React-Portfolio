@@ -32,7 +32,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <a className="link" href="https://www.linkedin.com/in/mohamed-mesahel-pmp-570a0423/">LinkedIn</a>
           </div>
           <div className="itemContainer">
-            <a className="link" href="https://drive.google.com/file/d/12_hqHTFt_PUzIh4GH4xL-2jvjOntGjzR/view?usp=sharing">Resume</a>
+            <a className="link" href="https://drive.google.com/file/d/1tY-ocGIT-xOg8WHtihPCz4CeNCPG0z0Q/view?usp=sharing">Resume</a>
           </div>
 
         </div>

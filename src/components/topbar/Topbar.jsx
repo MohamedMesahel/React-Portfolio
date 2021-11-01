@@ -20,7 +20,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           </div>
           <div className="itemContainer">
             <Mail className="icon" />
-            <span>zizo@mail.com</span>
+            <a className="link" href="mailto:mohamed.mesahel86@gmail.com">Contact Me</a>
           </div>
         {/* Find an icon for github and linkdin */}
           <div className="itemContainer">

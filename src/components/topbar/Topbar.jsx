@@ -1,7 +1,7 @@
 // TODO: import necessary files from React and Stylesheet file
 // TODO: import icons files from material-ui icon liberary
 import "./topbar.scss";
-import { Person, Mail } from "@material-ui/icons";
+import { Mail } from "@material-ui/icons";
 // import { FaGithubAlt } from 'react-icons/fa';
 import { FaGithubAlt } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";

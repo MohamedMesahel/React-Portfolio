@@ -1,6 +1,6 @@
 // TODO: import necessary files from React and Stylesheet file
 import { useState } from "react";
-import "./contact.scss";
+import "./about.scss";
 import Shake from "../../assets/shake.svg";
 
 export default function Contact() {

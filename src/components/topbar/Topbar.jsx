@@ -15,12 +15,8 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             Guru.
           </a>
           <div className="itemContainer">
-            <Person className="icon" />
-            <span>+555555</span>
-          </div>
-          <div className="itemContainer">
             <Mail className="icon" />
-            <a className="link" href="mailto:mohamed.mesahel86@gmail.com">Contact Me</a>
+            <span >Contact: mohamed.mesahel@gmail.com</span>
           </div>
         {/* Find an icon for github and linkdin */}
           <div className="itemContainer">

@@ -1,28 +1,22 @@
 // TODO: import necessary files from React and Stylesheet file
-import { useState } from "react";
 import "./about.scss";
 import Shake from "../../assets/shake.svg";
 
-export default function Contact() {
-  const [message, setMessage] = useState(false);
- // TODO: Build Function to handle form submit
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setMessage(true);
-  };
+export default function About() {
+  
   return (
-    <div className="contact" id="contact">
+    <div className="about" id="about">
       <div className="left">
         <img src={Shake} alt="" />
       </div>
       <div className="right">
-        <h2>Contact.</h2>
-        <form onSubmit={handleSubmit}>
-          <input type="text" placeholder="Email" />
-          <textarea placeholder="Message"></textarea>
-          <button type="submit">Send</button>
-          {message && <span>Thanks, I'll reply ASAP :</span>}
-        </form>
+        <h2>About Me.</h2>
+        <div className="container">
+        <p className= "body" id="font">
+          Helping customer reach their needs is my passion. I am a Project Manager and training supervisor committed to deliver successful business solution through timely, measurable, and role-driven training programs in fast paced environment.
+        
+        </p>
+      </div>
       </div>
     </div>
   );

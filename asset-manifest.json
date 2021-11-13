@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.c2af6295.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.b3d37fb1.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.b3d37fb1.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.28fac08c.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.29259293.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.29259293.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.da328a1d.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.da328a1d.js.map",
-    "static/js/2.6c7a1e36.chunk.js": "/React-Portfolio/static/js/2.6c7a1e36.chunk.js",
-    "static/js/2.6c7a1e36.chunk.js.map": "/React-Portfolio/static/js/2.6c7a1e36.chunk.js.map",
+    "static/js/2.9d96273a.chunk.js": "/React-Portfolio/static/js/2.9d96273a.chunk.js",
+    "static/js/2.9d96273a.chunk.js.map": "/React-Portfolio/static/js/2.9d96273a.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "static/css/main.c2af6295.chunk.css.map": "/React-Portfolio/static/css/main.c2af6295.chunk.css.map",
-    "static/js/2.6c7a1e36.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.6c7a1e36.chunk.js.LICENSE.txt",
+    "static/css/main.28fac08c.chunk.css.map": "/React-Portfolio/static/css/main.28fac08c.chunk.css.map",
+    "static/js/2.9d96273a.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.9d96273a.chunk.js.LICENSE.txt",
     "static/media/Categories.ee186e05.png": "/React-Portfolio/static/media/Categories.ee186e05.png",
     "static/media/Horiseonwebsite.9a963829.png": "/React-Portfolio/static/media/Horiseonwebsite.9a963829.png",
+    "static/media/Linkedin1.6231ad7b.gif": "/React-Portfolio/static/media/Linkedin1.6231ad7b.gif",
     "static/media/Main.500bad7c.png": "/React-Portfolio/static/media/Main.500bad7c.png",
     "static/media/Portfolio.ca0a5633.png": "/React-Portfolio/static/media/Portfolio.ca0a5633.png",
     "static/media/Quizgame.a53af802.png": "/React-Portfolio/static/media/Quizgame.a53af802.png",
@@ -29,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.da328a1d.js",
-    "static/js/2.6c7a1e36.chunk.js",
-    "static/css/main.c2af6295.chunk.css",
-    "static/js/main.b3d37fb1.chunk.js"
+    "static/js/2.9d96273a.chunk.js",
+    "static/css/main.28fac08c.chunk.css",
+    "static/js/main.29259293.chunk.js"
   ]
 }

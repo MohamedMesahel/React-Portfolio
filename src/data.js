@@ -12,6 +12,9 @@ import Readme from "./assets/README.png";
 import Backend from "./assets/employeetracker3.png";
 import Ecommerce from "./assets/Categories.png";
 import Quiz from "./assets/Quizgame.png";
+import Historian from "./assets/Historian.png"
+import Blog from "./assets/Blog.png"
+
 
 export const featuredPortfolio = [
   {
@@ -45,13 +48,12 @@ export const featuredPortfolio = [
     img: Ecommerce,
     link: "https://github.com/MohamedMesahel/E-Commerce-Back-End"
   },
-    // Domy Data
   {
     id: 6,
-    title: "Coming Soon",
-    img:
-      "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
-  },
+    title: "Tech Blog",
+    img: Blog,
+    link: "https://techblog-mm.herokuapp.com/"
+    },
 ];
 
 export const collaborativePortfolio = [
@@ -67,12 +69,13 @@ export const collaborativePortfolio = [
     img: Tutorade,
     link: "https://new-tutor.herokuapp.com/login"
   },
-  // Domy Data
   {
     id: 3,
-    title: "Coming Soon",
-    img: "https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900",
+    title: "Historian",
+    img: Historian,
+    link: "https://historian-timeline.herokuapp.com/"
   },
+  // Domy Data
   {
     id: 4,
     title: "Coming Soon",

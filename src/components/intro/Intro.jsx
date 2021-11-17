@@ -14,7 +14,7 @@ export default function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed:60,
-      strings: ["Projects Management", "Developer", "Designer"],
+      strings: ["Project Manager", "Web Developer", "Web Designer"],
     });
   }, []);
   
@@ -30,7 +30,7 @@ export default function Intro() {
           <h2>Hello, I'm</h2>
           <h1>Mohamed Mesahel</h1>
           <h3>
-            I do <span ref={textRef}></span>
+            I am <span ref={textRef}></span>
           </h3>
         </div>
         <a href="#portfolio">

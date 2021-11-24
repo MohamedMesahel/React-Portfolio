@@ -1,22 +1,19 @@
 // TODO: import necessary files from React and Stylesheet file
 import { useState } from "react";
-import "./works.scss";
+import "./skills.scss";
 import Mobile from "../../assets/mobile.png";
 import Globe from "../../assets/globe.png";
 import Writing from "../../assets/writing.png";
 import Arrow from "../../assets/arrow.png";
 // TODO: Use Domy Data and test the slider
-export default function Works() {
+export default function Skills() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
     {
       id: "1",
-      icon: Mobile,
-      title: "Web Design",
+      title: "Technologies",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-      img:
-        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
     },
     {
       id: "2",
@@ -45,7 +42,7 @@ export default function Works() {
   };
   
   return (
-    <div className="works" id="works">
+    <div className="works" id="skills">
       <div
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
@@ -60,14 +57,11 @@ export default function Works() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <span>Projects</span>
+                  <span>Skills</span>
                 </div>
               </div>
               <div className="right">
-                <img
-                  src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930"
-                  alt=""
-                />
+                
               </div>
             </div>
           </div>

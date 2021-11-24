@@ -18,7 +18,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <Mail className="icon" />
             <span >Contact: mohamed.mesahel@gmail.com</span>
           </div>
-        {/* Find an icon for github and linkdin */}
+        {/*  icon for github and linkdin */}
           <div className="itemContainer">
             <FaGithubAlt className="icon" />
             <a className = "link" href="https://github.com/MohamedMesahel">Github</a>

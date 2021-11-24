@@ -8,7 +8,7 @@ import {
   featuredPortfolio,
   collaborativePortfolio,
   personnelPortfolio,
-  designPortfolio,
+  // designPortfolio,
   contentPortfolio,
 } from "../../data";
 
@@ -28,10 +28,10 @@ export default function Portfolio() {
       id: "collaborative",
       title: "Collaborative App",
     },
-    {
-      id: "design",
-      title: "Design",
-    },
+    // {
+    //   id: "design",
+    //   title: "Design",
+    // },
     {
       id: "content",
       title: "Content",
@@ -49,9 +49,9 @@ export default function Portfolio() {
       case "collaborative":
         setData(collaborativePortfolio);
         break;
-      case "design":
-        setData(designPortfolio);
-        break;
+      // case "design":
+      //   setData(designPortfolio);
+      //   break;
       case "content":
         setData(contentPortfolio);
         break;
@@ -78,16 +78,16 @@ export default function Portfolio() {
       <div className="container">
         {data.map((d) => (
           <div key={d.id} className="card">
-            <figure class="card__thumb">
+            <figure className="card__thumb">
               <img className="card__image"
                 src={d.img}
                 alt=""
               />
-              <figcaption class="card__caption">
+              <figcaption className="card__caption">
                 <h3 className="title">{d.title}</h3>
-                <p class="card__snippet">{d.summary}</p>
-                <a href={d.link1} class="card__button">Live Demo</a>
-                <a href={d.link2} class="card__button">Source Code</a>
+                <p className="card__snippet">{d.summary}</p>
+                <a href={d.link1} className="card__button">Live Demo</a>
+                <a href={d.link2} className="card__button">Source Code</a>
 
               </figcaption>
 

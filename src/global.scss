@@ -1,5 +1,13 @@
 // TODO: Const main App color to be used globaly
+$desktop: 1024px;
 
+@mixin breakpoint($point) {
+  @if $point==desktop {
+    @media (min-width: $desktop) {
+      @content;
+    }
+  }
+}
 $mainColor: #15023a;
 
 $width: 768px;

@@ -58,7 +58,7 @@ export const featuredPortfolio = [
     link1: "https://github.com/MohamedMesahel/E-Commerce-Back-End",
     link2: "https://github.com/MohamedMesahel/E-Commerce-Back-End",
   },
-  
+
 ];
 
 export const collaborativePortfolio = [
@@ -94,12 +94,8 @@ export const collaborativePortfolio = [
     title: "Coming Soon",
     img: "https://cdn.dribbble.com/users/2264844/screenshots/15463998/media/d85e92a332c41094f68e1f716884f7ce.jpg?compress=1&resize=1200x900",
   },
-  {
-    id: 5,
-    title: "Coming Soon",
-    img: "https://cdn.dribbble.com/users/387658/screenshots/15458608/media/e92ec1dd33dd1170ae3dc9c5272f2693.jpg?compress=1&resize=1200x900",
-  },
-  
+
+
 ];
 
 export const personnelPortfolio = [
@@ -127,7 +123,6 @@ export const personnelPortfolio = [
     link1: "https://github.com/MohamedMesahel/employee-tracker",
     link2: "https://github.com/MohamedMesahel/employee-tracker",
   },
-  // Domy Data
   {
     id: 6,
     title: "Tech Blog",
@@ -138,34 +133,34 @@ export const personnelPortfolio = [
 
   },
 ];
+  // Domy Data for extra project lists
+// export const designPortfolio = [
+//   {
+//     id: 1,
+//     title: "Coming Soon",
+//     img:
+//       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+//   },
+//   {
+//     id: 2,
+//     title: "Coming Soon",
+//     img:
+//       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+//   },
+//   {
+//     id: 3,
+//     title: "Comming Soon",
+//     img:
+//       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+//   },
+//   {
+//     id: 4,
+//     title: "Comming Soon",
+//     img:
+//       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+//   },
 
-export const designPortfolio = [
-  {
-    id: 1,
-    title: "Coming Soon",
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-  },
-  {
-    id: 2,
-    title: "Coming Soon",
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-  },
-  {
-    id: 3,
-    title: "Comming Soon",
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-  },
-  {
-    id: 4,
-    title: "Comming Soon",
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-  },
-  
-];
+// ];
 
 export const contentPortfolio = [
   {
@@ -195,12 +190,12 @@ export const contentPortfolio = [
     link2: "https://github.com/MohamedMesahel/employee-tracker",
 
   },
-    // Domy Data
+  // Domy Data
   {
     id: 4,
     title: "Comming Soon",
     img:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
   },
-  
+
 ];

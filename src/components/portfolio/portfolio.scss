@@ -1,6 +1,22 @@
-// TODO: import necessary files from Global stylesheets
+$desktop: 1024px;
+
+@mixin breakpoint($point) {
+  @if $point==desktop {
+    @media (min-width: $desktop) {
+      @content;
+    }
+  }
+}
+// body {
+  //     display: flex;
+  //     justify-content: center;
+  //     align-items: center;
+  //     width: 100vw;
+  //     height: 100vh;
+  //     background-color: #e6e6e6;
+  // }
 @import "../../global.scss";
-// TODO: Portfolio Style and hover event
+
 .portfolio {
   background-color: rgb(241, 235, 206);
   display: flex;
@@ -16,7 +32,7 @@
   }
 
   ul {
-    margin: 10px;
+    margin: 30px;
     padding: 0;
     list-style: none;
     display: flex;
@@ -27,64 +43,152 @@
       justify-content: center;
     }
   }
-
+  
   .container {
-    width: 80%;
+   width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-
-    @include mobile {
+  }
+  @include mobile {
       width: 100%;
     }
 
-    .item {
-      width: 220px;
-      height: 150px;
+  .card {
+   width: 300px;
       border-radius: 20px;
       // border: 1px solid rgb(240, 239, 239);
-      margin: 15px 20px;
+      margin: 20px 20px;
       display: flex;
       align-items: center;
       justify-content: center;
-      color: rgb(190, 133, 133);
       position: relative;
       transition: all 0.5s ease;
       cursor: pointer;
 
-      @include mobile {
+    @include mobile {
         width: 130px;
         height: 100px;
       }
 
-      h3 {
-        position: absolute;
-        font-size: 20px;
+    &:hover {
+      .card__caption {
+        top: 50%;
+        transform: translateY(-50%);
       }
 
-      img {
-        width: 105%;
-        height: 105%;
-        object-fit: fill;
+      
+
+      .card__image {
+        transform: translateY(-10px);
+        object-fit: cover;
         z-index: 1;
         border-radius: 20px;
-
+        
       }
-      // button {
-      //   background-color: rgb(94, 89, 83);
-      //   color: black dark;
-      //   border: 2px solid #0fcfc9;
-      //   border-radius: 50px;
-      //   margin-right: 1rem;
-      // }
+
+      .card__thumb {
+        &::after {
+          top: 0;
+        }
+      }
+
+      .card__snippet {
+        margin: 20px 0;
+      }
+    }
+
+    &__thumb {
+      position: relative;
+      max-height: 400px;
+      overflow: hidden;
+
+      @include breakpoint(desktop) {
+        max-height: 400px;
+      }
+
+      &::after {
+        position: absolute;
+        top: 0;
+        display: block;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 40%, rgba(255, 255, 255, 0) 100%);
+        transition: 0.3s;
+
+        @include breakpoint(desktop) {
+          top: calc(100% - 140px);
+        }
+      }
+    }
+
+    &__image {
+      transition: 0.5s ease-in-out;
+    }
+
+    &__caption {
+      position: absolute;
+      top: 50%;
+      z-index: 1;
+      padding: 0 20px;
+      color: white;
+      transform: translateY(-50%);
+      text-align: center;
+      transition: 0.3s;
+
+      @include breakpoint(desktop) {
+        top: calc(100% - 110px);
+        transform: unset;
+      }
+    }
+
+    &__title {
+      display: -webkit-box;
+      max-height: 85px;
+      overflow: hidden;
+      font-family: "Playfair Display", serif;
+      font-size: 23px;
+      line-height: 28px;
+      text-shadow: 0px 1px 5px black;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+    }
+
+    &__snippet {
+      display: -webkit-box;
+      max-height: 150px;
+      margin: 20px 0;
+      overflow: hidden;
+      font-family: "Roboto", sans-serif;
+      font-size: 16px;
+      line-height: 20px;
+      text-overflow: ellipsis;
+      transition: 0.5s ease-in-out;
+      -webkit-line-clamp: 5;
+      -webkit-box-orient: vertical;
+
+      @include breakpoint(desktop) {
+        margin: 60px 0;
+      }
+    }
+
+    &__button {
+      display: inline-block;
+      padding: 10px 20px;
+      color: white;
+      border: 1px solid white;
+      font-family: "Roboto", sans-serif;
+      font-size: 12px;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: 0.3s;
 
       &:hover {
-        background-color: $mainColor;
-        img {
-          opacity: 0.2;
-          z-index: 0;
-        }
+        color: black;
+        background-color: white;
       }
     }
   }

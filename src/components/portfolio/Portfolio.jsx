@@ -37,7 +37,7 @@ export default function Portfolio() {
       title: "Content",
     },
   ];
-// TODO: UseEffect to switch between list titles
+  // TODO: UseEffect to switch between list titles
   useEffect(() => {
     switch (selected) {
       case "featured":
@@ -64,7 +64,7 @@ export default function Portfolio() {
     <div className="portfolio" id="portfolio">
       <h1>Portfolio</h1>
       <ul>
-      
+
         {list.map((item) => (
           <PortfolioList key={item.id}
             title={item.title}
@@ -74,20 +74,27 @@ export default function Portfolio() {
           />
         ))}
       </ul>
+
       <div className="container">
         {data.map((d) => (
-          <div key={d.id} className="item">
-            <a href={d.link}>
-              <img
+          <div key={d.id} className="card">
+            <figure class="card__thumb">
+              <img className="card__image"
                 src={d.img}
                 alt=""
               />
-            </a>
-            <h3>{d.title}</h3>
+              <figcaption class="card__caption">
+                <h3 className="title">{d.title}</h3>
+                <p class="card__snippet">{d.summary}</p>
+                <a href={d.link1} class="card__button">Live Demo</a>
+                <a href={d.link2} class="card__button">Source Code</a>
+
+              </figcaption>
+
+            </figure>
+
           </div>
         ))}
-        {/* <button type="submit">Send</button> */}
-
       </div>
     </div>
   );

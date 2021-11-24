@@ -21,39 +21,44 @@ export const featuredPortfolio = [
     id: 1,
     title: "Horiseon Optmization",
     img: Horiseonwebsite,
-    link: "https://mohamedmesahel.github.io/Horiseon-website/"
+    summary: "Project Summary",
+    link1: "https://mohamedmesahel.github.io/Horiseon-website/",
+    link2: "https://mohamedmesahel.github.io/Horiseon-website/"
 
   },
   {
     id: 2,
     title: "Workout-Tracker",
     img: Cardio,
-    link: "https://workout-trackermm.herokuapp.com/"
+    summary: "Project Summary",
+    link1: "https://workout-trackermm.herokuapp.com/",
+    link2: "https://workout-trackermm.herokuapp.com/"
   },
   {
     id: 3,
     title: "Note-Taker",
     img: Start,
-    link: "https://note-taker4.herokuapp.com/"
+    summary: "Project Summary",
+    link1: "https://note-taker4.herokuapp.com/",
+    link2: "https://note-taker4.herokuapp.com/",
   },
   {
     id: 4,
     title: "Work Day Scheduler",
     img: Scheduler,
-    link: "https://mohamedmesahel.github.io/Work-Day-Scheduler/"
+    summary: "This Day-Scheduler consists of a main page with function displaying date of today, and allows the user to save events for each hour of a working day.",
+    link1: "https://mohamedmesahel.github.io/Work-Day-Scheduler/",
+    link2: "https://mohamedmesahel.github.io/Work-Day-Scheduler/",
   },
   {
     id: 5,
     title: "E-commerce Backend",
     img: Ecommerce,
-    link: "https://github.com/MohamedMesahel/E-Commerce-Back-End"
+    summary: "Project Summary",
+    link1: "https://github.com/MohamedMesahel/E-Commerce-Back-End",
+    link2: "https://github.com/MohamedMesahel/E-Commerce-Back-End",
   },
-  {
-    id: 6,
-    title: "Tech Blog",
-    img: Blog,
-    link: "https://techblog-mm.herokuapp.com/"
-    },
+  
 ];
 
 export const collaborativePortfolio = [
@@ -61,19 +66,27 @@ export const collaborativePortfolio = [
     id: 1,
     title: "Squirrels Calender",
     img: Calender,
-    link: "https://mohamedmesahel.github.io/Calendar/index.html"
+    summary: "Project Summary",
+    link1: "https://mohamedmesahel.github.io/Calendar/index.html",
+    link2: "https://github.com/MohamedMesahel/E-Commerce-Back-End",
+
   },
   {
     id: 2,
     title: "Tutorade",
     img: Tutorade,
-    link: "https://new-tutor.herokuapp.com/login"
+    summary: "Project Summary",
+    link1: "https://new-tutor.herokuapp.com/login",
+    link2: "https://github.com/MohamedMesahel/E-Commerce-Back-End",
+
   },
   {
     id: 3,
     title: "Historian",
     img: Historian,
-    link: "https://historian-timeline.herokuapp.com/"
+    summary: "Project Summary",
+    link1: "https://historian-timeline.herokuapp.com/",
+    link2: "https://historian-timeline.herokuapp.com/",
   },
   // Domy Data
   {
@@ -94,26 +107,35 @@ export const personnelPortfolio = [
     id: 1,
     title: "GitHub Portfolio",
     img: Portfolio,
-    link: "https://mohamedmesahel.github.io/My-Portfolio/"
+    summary: "Project Summary",
+    link1: "https://mohamedmesahel.github.io/My-Portfolio/",
+    link2: "https://github.com/MohamedMesahel/E-Commerce-Back-End",
   },
   {
     id: 2,
     title: "Weather-Tracker",
     img: Weather,
-    link: "https://mohamedmesahel.github.io/Weather-Dashboard/?"
+    summary: "Project Summary",
+    link1: "https://mohamedmesahel.github.io/Weather-Dashboard/?",
+    link2: "https://mohamedmesahel.github.io/Weather-Dashboard/?",
   },
   {
     id: 3,
     title: "Employee Tracker",
     img: Backend,
-    link: "https://github.com/MohamedMesahel/employee-tracker"
+    summary: "Project Summary",
+    link1: "https://github.com/MohamedMesahel/employee-tracker",
+    link2: "https://github.com/MohamedMesahel/employee-tracker",
   },
   // Domy Data
   {
-    id: 4,
-    title: "Mobile Relax App",
-    img:
-      "https://cdn.dribbble.com/users/2083704/screenshots/15468619/media/cd958306c7a772449e1ac23bd65ce506.png?compress=1&resize=1200x900",
+    id: 6,
+    title: "Tech Blog",
+    img: Blog,
+    summary: "Project Summary",
+    link1: "https://techblog-mm.herokuapp.com/",
+    link2: "https://github.com/MohamedMesahel/E-Commerce-Back-End",
+
   },
 ];
 
@@ -150,19 +172,28 @@ export const contentPortfolio = [
     id: 1,
     title: "Team Profile Generator",
     img: Team,
-    link: "https://github.com/MohamedMesahel/Team-Profile-Generator"
+    summary: "Project Summary",
+    link1: "https://github.com/MohamedMesahel/Team-Profile-Generator",
+    link2: "https://github.com/MohamedMesahel/employee-tracker",
+
   },
   {
     id: 2,
     title: "README Generator",
     img: Readme,
-    link: "https://github.com/MohamedMesahel/Professional-README-Generator"
+    summary: "Project Summary",
+    link1: "https://github.com/MohamedMesahel/Professional-README-Generator",
+    link2: "https://github.com/MohamedMesahel/employee-tracker",
+
   },
   {
     id: 3,
     title: "Quiz Game",
     img: Quiz,
-    link: "https://mohamedmesahel.github.io/Quiz-Game/"
+    summary: "Project Summary",
+    link1: "https://mohamedmesahel.github.io/Quiz-Game/",
+    link2: "https://github.com/MohamedMesahel/employee-tracker",
+
   },
     // Domy Data
   {

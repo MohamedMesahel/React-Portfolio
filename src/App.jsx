@@ -1,7 +1,7 @@
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro"
 import Portfolio from "./components/portfolio/Portfolio"
-import Skills from "./components/skills/Skills"
+// import Skills from "./components/skills/Skills"
 import Testimonials from "./components/testimonials/Testimonials"
 import About from "./components/about/About"
 import "./app.scss"
@@ -18,7 +18,7 @@ function App() {
         <Intro />
         <Portfolio />
         {/* This component will be for future projects */}
-        <Skills />
+        {/* <Skills /> */}
         <Testimonials />
         <About />
       </div>

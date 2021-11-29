@@ -20,7 +20,7 @@ export default function About() {
       </div>
       <div className="container">
         <article>
-          <p className="body" id="font">
+          <p className="user" id="font">
             Helping customer reach their needs is my passion. I am a Project Manager and Full Stack Web Developer committed to deliver successful business solution through timely, measurable, and role-driven projects in fast paced environment.
             I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, JS, building small and medium web apps, custom plugins, features, animations, and coding interactive layouts.
           </p>

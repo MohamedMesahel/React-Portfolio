@@ -15,21 +15,16 @@
   }
   h1 {
     font-size: 50px;
-
-    @include mobile {
-      height: 65px;
-      font-size: 20px;
-    }
   }
   h2 {
     font-size: 30px;
-
+  }
+  h1, h2{
     @include mobile {
       height: 65px;
       font-size: 20px;
     }
   }
-  
   .container {
     width: 100%;
     display: flex;

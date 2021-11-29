@@ -86,6 +86,7 @@ export default function Portfolio() {
               <figcaption className="card__caption">
                 <h3 className="title">{d.title}</h3>
                 <p className="card__snippet">{d.summary}</p>
+                <p className="card__snippet">{d.tech}</p>
                 <a href={d.link1} className="card__button">Live Demo</a>
                 <a href={d.link2} className="card__button">Source Code</a>
 

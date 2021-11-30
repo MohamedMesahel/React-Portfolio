@@ -15,40 +15,88 @@ export default function About() {
 
   return (
     <div className="about" id="about">
-      <div className="title">
         <h1>About Me</h1>
-      </div>
       <div className="wrapper">
-        <article>
-          <p className="user" id="font">
-            Helping customer reach their needs is my passion. I am a Project Manager and Full Stack Web Developer committed to deliver successful business solution through timely, measurable, and role-driven projects in fast paced environment.
-            I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, JS, building small and medium web apps, custom plugins, features, animations, and coding interactive layouts.
-          </p>
-        </article>
+        <h3 className="user" id="font">
+          Helping customer reach their needs is my passion. I am a Project Manager and Full Stack Web Developer committed to deliver successful business solution through timely, measurable, and role-driven projects in fast paced environment.
+          I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, JS, building small and medium web apps, custom plugins, features, animations, and coding interactive layouts.
+        </h3>
       </div>
       <br />
       <h2>Programming Languages</h2>
-      <div className="user">
+      <div className="wrapper">
         <article>
-          <img className="user" src={CSS} title="CSS" />
-          <img className="user" src={Html} title="HTML" />
-          <img className="user" src={JS} title="JavaScript" />
-          <img className="user" src={Mongodb} title="MongoDb" />
-          <img className="user" src={MUI} title="Material UI" />
-          <img className="user" src={Node} title="NodeJs" />
-          <img className="user" src={NPM} title="NPM" />
-          <img className="user" src={ReactI} title="React" />
-          <img className="user" src={SASS} title="SASS" />
-          <img className="user" src={SQL} title="MySql" />
+          <img className="user" src={CSS} title="CSS" alt="" />
+          <img className="user" src={Html} title="HTML" alt="" />
+          <img className="user" src={JS} title="JavaScript" alt="" />
+          <img className="user" src={Mongodb} title="MongoDb" alt="" />
+          <img className="user" src={MUI} title="Material UI" alt="" />
+          <img className="user" src={Node} title="NodeJs" alt="" />
+          <img className="user" src={NPM} title="NPM" alt="" />
+          <img className="user" src={ReactI} title="React" alt="" />
+          <img className="user" src={SASS} title="SASS" alt="" />
+          <img className="user" src={SQL} title="MySql" alt="" />
         </article>
       </div>
-      <h2 className="right"><span>Work Flow</span></h2>
+      <br />
+      <br />
+      <h2 className="right"><span>Recent Work Experinece</span></h2>
       <div className="user">
         <article>
-          <p className="user right" id="font">
-            Helping customer reach their needs is my passion. I am a Project Manager and Full Stack Web Developer committed to deliver successful business solution through timely, measurable, and role-driven projects in fast paced environment.
-            I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, JS, building small and medium web apps, custom plugins, features, animations, and coding interactive layouts.
-          </p>
+          <ul>
+            <li>
+              <h3 >Project Manager/Training Supervisor, November 2016 – Present
+                VIP Hospitality, LLC, SeaTac Airport, WA, USA</h3>
+            </li>
+            <br />
+            <li>
+              <h4>
+                Key Accomplishments:
+              </h4>
+            </li>
+            <br />
+            <li>
+              <h4>
+                Trained 200+ junior and senior employees on development and implementation of training and operation programs.
+              </h4>
+            </li>
+            <br />
+            <li>
+              <h4>
+                Developed and implemented 10+ training projects and 5+ operation projects.
+              </h4>
+            </li>
+            <br />
+            <li>
+              <h4>
+                Conducted training risk assessment on 3+ programs and prepared related operation and training strategies.
+              </h4>
+            </li>
+            <br />
+            <li>
+              <h4>
+                Scheduled projects and ensured its compliance with airport SLA programs development that led to winning WORLD AIRPORT SKYTRAX AWARDS 2019 – BEST AIRPORT STAFF IN NORTH AMERICA 2019 (International Arrivals).
+              </h4>
+            </li>
+            <br />
+            <li>
+              <h4>
+                Assist management in evaluation of training and operation programs and measure their effectiveness.
+              </h4>
+              <br />
+            </li>
+            <li>
+              <h4>
+                Uphold strict compliance with airport procedures and provide timely reports to Port of Seattle and Customs and Border Protection officers for the safety of passengers and employees.
+              </h4>
+            </li>
+            <br />
+            <li>
+              <h4>
+                Monitored all complex projects and implemented development plans, training programs, and strategies to win over new contracts with Port of Seattle and renew exciting ones.
+              </h4>
+            </li>
+          </ul>
         </article>
 
       </div>

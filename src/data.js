@@ -7,7 +7,6 @@ import Calender from "./assets/Main.png";
 import Tutorade from "./assets/Tutorade.png";
 import Portfolio from "./assets/Portfolio.png";
 import Weather from "./assets/WeatherDashboard.png";
-import Team from "./assets/Teamprofile.png";
 import Backend from "./assets/employeetracker3.png";
 import Ecommerce from "./assets/Categories.png";
 import Quiz from "./assets/Quizgame.png";

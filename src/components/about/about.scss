@@ -1,68 +1,51 @@
 // TODO: import global sass files
 @import "../../global.scss";
-
-
+$primary-color: #272727;
+main {
+  background-color: rgba(177, 210, 210, 0.916) !important;
+}
 .about {
-  
-  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-.user {
-    align-items: left;
+  margin: 20px;
+  p {
+    font-size: 1.15em;
+    font-family: "Lato", sans-serif;
+    text-align: justify;
+    margin: 15px;
+  }
+  .image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .image-grid > img {
     margin: 10px;
   }
-  
-  h1 {
-        overflow: hidden;
 
-    font-size: 50px;
-  }
-  h2 {
-        overflow: hidden;
+  .jobs {
+    width: 60vw;
+    margin: 2rem auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    color: antiquewhite;
 
-    font-size: 30px;
-  }
-  h1,
-  h2 {
-    @include mobile {
-      height: 65px;
-      font-size: 15px;
-    }
-  }
-  .wrapper {
-    overflow: hidden;
-    article {
-      width: 90%;
-      border-radius: 1rem;
-      overflow: hidden;
-      padding: 2rem !important;
-      color: #fff;
+    &__job {
+      background: lighten($primary-color, 10%);
+      padding: 0.5rem;
+      border-bottom: 5px solid #ff652f;
+      color: antiquewhite;
 
-     @include mobile {
-      height: 5px;
-      font-size: 15px;
-    }
-
-      img {
-        &.user {
-          height: 100px;
-          border-radius: 50%;
-
-          .user img:hover {
-            opacity: 1;
-          }
-
-          @include mobile {
-            width: 30px;
-            height: 30px;
-          }
-        }
+      h2,
+      h3 {
+        margin: 0.5rem 0;
       }
-    }
-    @include mobile {
-      flex-direction: column;
-      height: 100%;
+      h6 {
+        margin: 0.3rem 0;
+      }
     }
   }
 }

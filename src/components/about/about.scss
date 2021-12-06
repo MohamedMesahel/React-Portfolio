@@ -26,11 +26,12 @@ main {
   }
 
   .jobs {
-    width: 60vw;
-    margin: 2rem auto 0 auto;
+    width: 100%;
+    margin: 10px;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 2rem;
+    grid-template-columns: 40% 40%;
+    grid-gap: 50px;
+    justify-content: center;
     color: antiquewhite;
 
     &__job {
@@ -45,6 +46,9 @@ main {
       }
       h6 {
         margin: 0.3rem 0;
+      }
+      p {
+        text-align: justify;
       }
     }
   }

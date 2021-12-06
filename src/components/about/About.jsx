@@ -32,7 +32,7 @@ export default function About() {
           <img src={SASS} title="SASS" alt="" />
           <img src={SQL} title="MySql" alt="" />
         </div>
-       
+
         <div className="jobs">
           <div className="jobs__job">
             <h2 className="text-secondary">2017 - Current</h2>

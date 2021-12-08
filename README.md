@@ -64,6 +64,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 - If you want to run the app on your local server download it through Github.
 - Run npm i or (npm install), to make sure to download all the necessary files in the jason package.
 - In your command shell run npm start.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Prerequisites
 

@@ -17,8 +17,8 @@ export default function About() {
     <main>
       <section className="about" id="about">
         <h1 className="title">About Me</h1>
-        <p>Helping customer reach their needs is my passion. I am a Project Manager and Full Stack Web Developer committed to deliver successful business solution through timely, measurable, and role-driven projects in fast paced environment.
-          I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, JS, building small and medium web apps, custom plugins, features, animations, and coding interactive layouts.</p>
+        <p>Helping customer reach their needs is my passion. I am a Project Manager and Full Stack Web Developer with a background in Hospitality and Customer Service who is now looking for a full-time employment in technology and can provide unique insights into how end-users interact with websites and software platforms. Strengths include being a creative problem-solver who is committed to deliver successful business solution through timely, measurable, and role-driven projects in fast paced environment.
+          I have created successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, JS, React and building small and medium web apps with a variety of custom plugins, features, animations, and coding interactive layouts.</p>
         <h2>Programming Languages</h2>
         <div className="image-grid">
           <img src={CSS} title="CSS" alt="" />
@@ -35,22 +35,22 @@ export default function About() {
 
         <div className="jobs">
           <div className="jobs__job">
-            <h2 className="text-secondary">2017 - Current</h2>
-            <h3>Google</h3>
-            <h6>Full Stack Developer</h6>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat vero dolores eum ut, culpa ullam quis quasi exercitationem in adipisci.</p>
+            <h2 className="text-secondary">2020 - Current</h2>
+            <h3>VIP Hospitality</h3>
+            <h6>Project Manager</h6>
+            <p>Monitored all complex projects and implemented development plans, training programs, and strategies to gain new contracts and renew existing ones with the Port of Seattle.</p>
           </div>
           <div className="jobs__job">
-            <h2 className="text-secondary">2015 - 2017</h2>
-            <h3>Microsoft</h3>
-            <h6>Front End Developer</h6>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat vero dolores eum ut, culpa ullam quis quasi exercitationem in adipisci.</p>
+            <h2 className="text-secondary">2016 - 2019</h2>
+            <h3>VIP Hospitality</h3>
+            <h6>Training Supervisor</h6>
+            <p>Trained 150+ employees on modern customer service trends, strategies, and company procedures in addition to developing educational manuals for new hires.</p>
           </div>
           <div className="jobs__job">
-            <h2 className="text-secondary">2012 - 2015</h2>
-            <h3>Web Design Co.</h3>
-            <h6>Graphic Designer</h6>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat vero dolores eum ut, culpa ullam quis quasi exercitationem in adipisci.</p>
+            <h2 className="text-secondary">2011 - 2015</h2>
+            <h3>Advanced Construction Company.</h3>
+            <h6>Project Coordinator </h6>
+            <p>Participated in the development of Contracts and Purchase Orders for 20+ projects with varying budgets (from $2,000,000 up to $300,000,000). This comprised methods for formulating, planning, and implementing procedures.</p>
           </div>
         </div>
 

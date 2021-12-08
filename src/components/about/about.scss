@@ -10,10 +10,14 @@ main {
   align-items: center;
   margin: 20px;
   p {
-    font-size: 1.15em;
+    font-size: 1.5em;
     font-family: "Lato", sans-serif;
     text-align: justify;
     margin: 15px;
+    @include mobile {
+      font-size: 14px;
+      padding: 5px;
+    }
   }
   .image-grid {
     display: flex;
@@ -33,7 +37,11 @@ main {
     grid-gap: 50px;
     justify-content: center;
     color: antiquewhite;
-
+    @include mobile {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 5px;
+    }
     &__job {
       background: lighten($primary-color, 10%);
       padding: 0.5rem;
@@ -43,6 +51,9 @@ main {
       h2,
       h3 {
         margin: 0.5rem 0;
+        @include mobile {
+          font-size: 14px;
+        }
       }
       h6 {
         margin: 0.3rem 0;

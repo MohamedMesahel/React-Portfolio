@@ -3,50 +3,48 @@
 .portfolio {
   background-color: rgb(241, 235, 206);
   $desktop: 1024px;
-  
 
-@mixin breakpoint($point) {
-  @if $point == desktop {
-    @media (min-width: $desktop) {
-      @content;
-		}
-	}
-}
-h1 {
+  @mixin breakpoint($point) {
+    @if $point == desktop {
+      @media (min-width: $desktop) {
+        @content;
+      }
+    }
+  }
+  h1 {
     font-size: 50px;
     overflow: hidden;
     text-align: center;
-
     @include mobile {
-      height: 65px;
+      height: 55px;
       font-size: 20px;
-      margin: auto;
+margin-top: 30px;
     }
   }
-ul {
+  ul {
     margin: 30px;
     padding: 0;
     list-style: none;
     display: flex;
-  justify-content: center;
+    justify-content: center;
 
     @include mobile {
-      height: 150px;
-      margin: 10px 0;
+      height: 120px;
+      margin: 5px 0;
       flex-wrap: wrap;
     }
   }
 
-.container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	width: 100%;
-	margin: 20px 0 80px;
-}
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0 80px;
+  }
 
-.card {
-width: 350px;
+  .card {
+    width: 350px;
     background-color: rgb(244, 242, 230);
     box-shadow: 0 5px 10px 0 rgba(93, 65, 65, 0.5);
     border-radius: 20px;
@@ -58,108 +56,108 @@ width: 350px;
     transition: all 0.5s ease;
     cursor: pointer;
 
-	&:hover {
-		.card__caption {
-			top: 50%;
-			transform: translateY(-50%);
-		}
+    &:hover {
+      .card__caption {
+        top: 50%;
+        transform: translateY(-50%);
+      }
 
-		.card__image {
-			transform: translateY(-10px);
-		}
+      .card__image {
+        transform: translateY(-10px);
+      }
 
-		.card__thumb {
-			&::after {
-				top: 0;
-			}
-		}
+      .card__thumb {
+        &::after {
+          top: 0;
+        }
+      }
 
-		.card__snippet {
-			margin: 20px 0;
-		}
-	}
+      .card__snippet {
+        margin: 20px 0;
+      }
+    }
 
-	&__thumb {
-		position: relative;
-		max-height: 400px;
-		overflow: hidden;
-		
-		@include breakpoint(desktop) {
-			max-height: 500px;
-		}
+    &__thumb {
+      position: relative;
+      max-height: 400px;
+      overflow: hidden;
 
-		&::after {
-			position: absolute;
-			top: 0;
-			display: block;
-			content: '';
-			width: 100%;
-			height: 100%;
-			background: linear-gradient(0deg, rgba(0, 0, 0, .5) 40%, rgba(255, 255 ,255 , 0) 100%);
-			transition: .3s;
-			
-			@include breakpoint(desktop) {
-				top: calc(100% - 140px);
-			}
-		}
-	}
-	img {
+      @include breakpoint(desktop) {
+        max-height: 500px;
+      }
+
+      &::after {
+        position: absolute;
+        top: 0;
+        display: block;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 40%, rgba(255, 255, 255, 0) 100%);
+        transition: 0.3s;
+
+        @include breakpoint(desktop) {
+          top: calc(100% - 140px);
+        }
+      }
+    }
+    img {
       width: 100%;
       height: 400px;
     }
-	&__image {
-		transition: .5s ease-in-out;
-	}
-	
-	&__caption {
-		position: absolute;
-		top: 40%;
-		z-index: 1;
-		padding: 0 20px;
-		color: white;
-		transform: translateY(-50%);
-		text-align: center;
-		transition: .3s;
+    &__image {
+      transition: 0.5s ease-in-out;
+    }
 
-		@include breakpoint(desktop) {
-			top: calc(100% - 80px);
-			transform: unset;
-		}
-	}
+    &__caption {
+      position: absolute;
+      top: 40%;
+      z-index: 1;
+      padding: 0 20px;
+      color: white;
+      transform: translateY(-50%);
+      text-align: center;
+      transition: 0.3s;
 
-	&__title {
-		display: -webkit-box;
-		max-height: 85px;
-    overflow: hidden;
-		font-family: 'Playfair Display', serif;
-		font-size: 23px;
-		line-height: 28px;
-		text-shadow: 0px 1px 5px black;
-		text-overflow: ellipsis;
-    -webkit-line-clamp: 3;
-		-webkit-box-orient: vertical;
-	}
+      @include breakpoint(desktop) {
+        top: calc(100% - 80px);
+        transform: unset;
+      }
+    }
 
-	&__snippet {
-		display: -webkit-box;
-		max-height: 150px;
-		margin: 20px 0;
-		overflow: hidden;
-		font-family: 'Roboto', sans-serif;
-		font-size: 16px;
-		line-height: 20px;
-		text-overflow: ellipsis;
-		transition: .5s ease-in-out;
-    -webkit-line-clamp: 5;
-		-webkit-box-orient: vertical;
-		
-		@include breakpoint(desktop) {
-			margin: 60px 0;
-		}
-	}
+    &__title {
+      display: -webkit-box;
+      max-height: 85px;
+      overflow: hidden;
+      font-family: "Playfair Display", serif;
+      font-size: 23px;
+      line-height: 28px;
+      text-shadow: 0px 1px 5px black;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+    }
 
-	&__button {
-		display: inline-block;
+    &__snippet {
+      display: -webkit-box;
+      max-height: 150px;
+      margin: 20px 0;
+      overflow: hidden;
+      font-family: "Roboto", sans-serif;
+      font-size: 16px;
+      line-height: 20px;
+      text-overflow: ellipsis;
+      transition: 0.5s ease-in-out;
+      -webkit-line-clamp: 5;
+      -webkit-box-orient: vertical;
+
+      @include breakpoint(desktop) {
+        margin: 60px 0;
+      }
+    }
+
+    &__button {
+      display: inline-block;
       padding: 5px 20px;
       margin: 5px;
       color: white;
@@ -170,12 +168,10 @@ width: 350px;
       text-decoration: none;
       transition: 0.3s;
 
-		&:hover {
-			color: black;
-			background-color: white;
-		}
-	}
-}
-
-
+      &:hover {
+        color: black;
+        background-color: white;
+      }
+    }
+  }
 }

@@ -1,3 +1,6 @@
+// Importing all components elements to start the application
+// For future referances you can add more elements and use the training folder
+
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro"
 import Portfolio from "./components/portfolio/Portfolio"

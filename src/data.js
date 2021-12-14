@@ -1,4 +1,4 @@
-// TODO: Setting up Domy Data
+// TODO: Setting up my main data and adding some domy data samples
 import Horiseonwebsite from "./assets/Horiseonwebsite.png";
 import Cardio from "./assets/cardio2.png";
 import Book from "./assets/book.png";

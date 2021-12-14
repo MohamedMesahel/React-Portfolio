@@ -1,3 +1,4 @@
+// Import necessary files from React and Stylesheet file
 import "./testimonials.scss";
 import Linkedin from "../../assets/Linkedin1.gif"
 export default function Testimonials() {

@@ -1,5 +1,4 @@
-// TODO: import necessary files from React and Stylesheet file
-// // TODO: import domy data
+// Import necessary files from React and Stylesheet file
 import { useEffect, useState } from "react";
 import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.scss";
@@ -28,10 +27,6 @@ export default function Portfolio() {
       id: "collaborative",
       title: "Collaborative App",
     },
-    // {
-    //   id: "design",
-    //   title: "Design",
-    // },
     {
       id: "content",
       title: "Content",

@@ -1,4 +1,4 @@
-// TODO: import necessary files from React and Stylesheet file
+// Import necessary files from React and Stylesheet file
 import CSS from "../../assets/css.png"
 import Html from "../../assets/html.png"
 import JS from "../../assets/js.png"
@@ -17,7 +17,7 @@ export default function About() {
     <main>
       <section className="about" id="about">
         <h1 className="title">About Me</h1>
-        <p>Helping customer reach their needs is my passion. I am a Project Manager and Full Stack Web Developer with a background in Hospitality and Customer Service who is now looking for a full-time employment in technology and can provide unique insights into how end-users interact with websites and software platforms. Strengths include being a creative problem-solver who is committed to deliver successful business solution through timely, measurable, and role-driven projects in fast paced environment.
+        <p>Helping customer reach their needs is my passion. I am a A Project Manager and Full Stack Web Developer, with a background in Hospitality and Customer Service that can provide unique insights into how end-users interact with websites and software platforms. Strengths include being a creative problem-solver who enjoys seeing projects and programs through from start to finish. Experience with traditional, agile, and waterfall approaches and frameworks, as well as the ability to communicate with both business and technical stakeholders.
           I have created successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, JS, React and building small and medium web apps with a variety of custom plugins, features, animations, and coding interactive layouts.</p>
         <h2>Programming Languages</h2>
         <div className="image-grid">
@@ -59,4 +59,4 @@ export default function About() {
   );
 }
 
-// TODO: Add other links for Github, LinkedIn...
+// You cn add other links for Github, LinkedIn in the future...

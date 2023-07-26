@@ -18,22 +18,22 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <Mail className="icon" />
             <span >Contact: mohamed.mesahel@gmail.com</span>
           </div>
-        {/*  icon for github and linkdin */}
+          {/*  icon for github and linkdin */}
           <div className="itemContainer">
             <FaGithubAlt className="icon" />
-            <a className = "link" href="https://github.com/MohamedMesahel">Github</a>
+            <a className="link" href="https://github.com/MohamedMesahel">Github</a>
           </div>
-          <div  className="itemContainer">
+          <div className="itemContainer">
             <FaLinkedin className="icon" />
             <a className="link" href="https://www.linkedin.com/in/mohamed-mesahel-pmp-570a0423/">LinkedIn</a>
           </div>
           <div className="itemContainer">
-            <a className="link" href="https://drive.google.com/file/d/1ZSinVUd1__zE3T3rX6xiU04Y6xaO3Hrn/view?usp=sharing">Resume</a>
+            <a className="link" href="https://drive.google.com/file/d/1RkjboWIeWWN6scYt0sTknSzBv9SMFiXS/view?usp=drive_link">Resume</a>
           </div>
 
         </div>
         <div className="right">
-          <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
+          <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
             <span className="line1"></span>
             <span className="line2"></span>
             <span className="line3"></span>

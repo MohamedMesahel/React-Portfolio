@@ -23,7 +23,7 @@ export const featuredPortfolio = [
     img: Book,
     summary: "Fully functioning Google Books API search engine built with GraphQL API and Apollo Server. The app was built using the MERN stack with a React frontend.",
     tech: "React, Node.js, Bootstrap liberary, Apollo server, GraphQL and Mongodb",
-    link1: "https://book-search-enginem.herokuapp.com/",
+    link1: "https://github.com/MohamedMesahel/Book-Search-Engine",
     link2: "https://github.com/MohamedMesahel/Book-Search-Engine",
   },
   {
@@ -51,7 +51,7 @@ export const featuredPortfolio = [
     img: Blog,
     summary: "CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.",
     tech: "Node.js, Handlebard, Express, Sequelize and MySQL",
-    link1: "https://techblog-mm.herokuapp.com/",
+    link1: "https://github.com/MohamedMesahel/Tech-Blog",
     link2: "https://github.com/MohamedMesahel/Tech-Blog",
 
   },
@@ -75,7 +75,7 @@ export const collaborativePortfolio = [
     img: Tutorade,
     summary: "A service that allows the user to sign in as a tutor, and provide the option to choose a programming language and search for students and Tutors, sending email to them.",
     tech: "MySQL, Sequelize, Handlebars, Bootstrap Framework, HTML5 validation, Node.js, Bcrypt",
-    link1: "https://new-tutor.herokuapp.com/login",
+    link1: "https://github.com/MohamedMesahel/Tutorade",
     link2: "https://github.com/MohamedMesahel/Tutorade",
 
   },
@@ -85,7 +85,7 @@ export const collaborativePortfolio = [
     img: Historian,
     summary: "This application will host and describe various conflicts that occurred during the 20th. We hope to inform later generations of little-known wars.",
     tech: "MongoDB / Mongoose, Wikipedia API, NY Times API, Material UI Framework, React, Node.js, Bcrypt",
-    link1: "https://historian-timeline.herokuapp.com/",
+    link1: "https://github.com/MohamedMesahel/Historian",
     link2: "https://github.com/MohamedMesahel/Historian",
   },
   // Domy Data for later goes here

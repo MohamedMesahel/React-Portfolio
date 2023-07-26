@@ -1,6 +1,7 @@
 <div id="top"></div>
 
 <!-- Badges -->
+
 [![Website shields.io](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](http://shields.io/)
 [![Website shields.io](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](http://shields.io/)
 [![Website shields.io](https://badges.aleen42.com/src/javascript.svg)](http://shields.io/)
@@ -9,9 +10,11 @@
 [![Website shields.io](https://badges.aleen42.com/src/npm.svg)](http://shields.io/)
 
 # React Portfolio
+
 My personal portfolio, which includes my résumé and technical skills, as well as some of my github projects.
 
 ## Table of Contents
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary><strong>Table of Contents</strong></summary>
@@ -34,8 +37,8 @@ My personal portfolio, which includes my résumé and technical skills, as well 
   </ol>
 </details>
 
-
 ## About The Project
+
 This is my react personal portfolio built using React and SASS. I will be continually adding projects, modifying content, and updating the the final appearence and functionality.
 
 <p align="center">
@@ -56,7 +59,9 @@ AS AN employer looking for candidates with experience building single-page appli
 I WANT to view a potential employee's deployed React portfolio of work samples
 SO THAT I can assess whether they're a good candidate for an open position
 ```
+
 ### Link to Live Demo
+
 [React Portfolio](https://mohamedmesahel.github.io/React-Portfolio/)
 
 ## Installation
@@ -69,17 +74,20 @@ SO THAT I can assess whether they're a good candidate for an open position
 ### Prerequisites
 
 Please make sure that you have the latest node packages.
-* npm
+
+- npm
   ```sh
   npm install npm@latest -g
   ```
 
 ## Installation
+
 - If you want to run the app on your local server download it through Github.
 - Run npm i or (npm install), to make sure to download all the necessary files in the jason package.
 - In your command shell run npm start.
 
 ### Built With
+
 - React.js
 - Node.js
 - Sass
@@ -100,9 +108,10 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
 <!-- CONTACT -->
+
 ## Contact
+
 [![Website shields.io](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](http://shields.io/)
 
 Mohamed Mesahel - mohamed.mesahel86@gmail.com
@@ -111,25 +120,27 @@ Mohamed Mesahel - mohamed.mesahel86@gmail.com
 
 https://github.com/MohamedMesahel
 
-[![LinkedIn][linkedin-shield]][linkedin-url] 
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- LICENSE -->
+
 ## License
 
-Distributed under the MIT License. 
+Distributed under the MIT License.
+
 <!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments
 
 List for some useful resources!
-* [Node](https://node-app.com/)
-* [React](https://reactjs.org/docs/getting-started.html)
 
-
-
+- [Node](https://node-app.com/)
+- [React](https://reactjs.org/docs/getting-started.html)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
 [linkedin-url]: https://www.linkedin.com/in/mohamed-mesahel-pmp-570a0423/

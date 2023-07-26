@@ -35,7 +35,13 @@ export default function About() {
 
         <div className="jobs">
           <div className="jobs__job">
-            <h2 className="text-secondary">2020 - Current</h2>
+            <h2 className="text-secondary">June 2020 - 2023</h2>
+            <h3>Infosys Limited</h3>
+            <h6>Associate Big-Data Engineer</h6>
+            <p>Create and manage data infrastructure and tool, including collecting, storing, processing, and analyzing a range of data and data systems. Addtionally perform tasks such as writing scripts, calling APIs and write SQL queries using Spark framework</p>
+          </div>
+          <div className="jobs__job">
+            <h2 className="text-secondary">2020 - 2022</h2>
             <h3>VIP Hospitality</h3>
             <h6>Project Manager</h6>
             <p>Monitored all complex projects and implemented development plans, training programs, and strategies to gain new contracts and renew existing ones with the Port of Seattle.</p>
@@ -46,12 +52,13 @@ export default function About() {
             <h6>Training Supervisor</h6>
             <p>Trained 150+ employees on modern customer service trends, strategies, and company procedures in addition to developing educational manuals for new hires.</p>
           </div>
-          <div className="jobs__job">
+          {/* This is extra card in case I want to add more in the future */}
+          {/* <div className="jobs__job">
             <h2 className="text-secondary">2011 - 2015</h2>
             <h3>Advanced Construction Company.</h3>
             <h6>Project Coordinator </h6>
             <p>Participated in the development of Contracts and Purchase Orders for 20+ projects with varying budgets (from $2,000,000 up to $300,000,000). This comprised methods for formulating, planning, and implementing procedures.</p>
-          </div>
+          </div> */}
         </div>
 
       </section>

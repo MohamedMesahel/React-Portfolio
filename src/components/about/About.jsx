@@ -17,8 +17,11 @@ export default function About() {
     <main>
       <section className="about" id="about">
         <h1 className="title">About Me</h1>
-        <p>Helping customer reach their needs is my passion. I am a A Project Manager and Full Stack Web Developer, with a background in Hospitality and Customer Service that can provide unique insights into how end-users interact with websites and software platforms. Strengths include being a creative problem-solver who enjoys seeing projects and programs through from start to finish. Experience with traditional, agile, and waterfall approaches and frameworks, as well as the ability to communicate with both business and technical stakeholders.
-          I have created successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, JS, React and building small and medium web apps with a variety of custom plugins, features, animations, and coding interactive layouts.</p>
+        <p>Helping customer reach their needs is my passion. I am a full-stack web-developer and project manager, with a background in Hospitality and Customer Service that can provide unique insights into how end-users interact with websites and software platforms. Strengths include being a creative problem-solver who enjoys seeing projects and programs through from start to finish. 
+          I have keen focus on building successful responsive websites that are fast, easy to use, and built with best practices. 
+          The main areas of my expertise are:
+          Front-end development: HTML, CSS, JS, React, Mongodb, and building small and medium web apps with a variety of custom plugins, features, animations, and coding interactive layouts.
+          Back-end development; Spark framework, Scala, python, SQL, Java.</p>
         <h2>Programming Languages</h2>
         <div className="image-grid">
           <img src={CSS} title="CSS" alt="" />
